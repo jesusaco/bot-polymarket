@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local Claude Code settings (override personal, no se comparte)
+.claude/settings.local.json
+
+# Runtime state (se reescribe en cada ciclo del bot)
+state_*.json
+
+# Runtime logs
+logs/
+
+# Backups de patch-scripts (ver convención en CLAUDE.md)
+*.bak
+*.bak.*
+*.bak_*
+
+# Estados archivados (histórico, no es código fuente)
+estados_archivados/
+
+# Bitácoras de trades (runtime, van al backup, no a git)
+*.xlsx
