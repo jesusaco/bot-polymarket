@@ -1,0 +1,9 @@
+{
+  "environment": "production",
+  "clob_url": "https://clob.polymarket.com",
+  "signer": "0xb9D97b111722291Ca00C99aC084357e6c6876f04",
+  "derived_wallet": "0x9385D0d4F73f5b7Ce73765C0AA54fa63fa889d8c",
+  "wallet_type": "DEPOSIT_WALLET",
+  "signer_matches_expected": true,
+  "credentials_obtained": true
+}
